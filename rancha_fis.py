@@ -79,7 +79,7 @@ for var, mfs in [(T, MF_T), (HR, MF_HR), (RC_out, MF_RC),
 
 # ----------------------------------------------------------------------
 # 4. BASES DE REGLAS (secciones 3.1 y 3.2) - todas con peso 1 y AND = min
-# ----------------------------------------------------------------------
+
 # FIS-1: matriz FAM  T x HR -> RC
 FAM_1 = {("Fria", "Baja"): "Bajo",   ("Fria", "Media"): "Bajo",   ("Fria", "Alta"): "Medio",
          ("Optima", "Baja"): "Bajo", ("Optima", "Media"): "Medio", ("Optima", "Alta"): "Alto",
